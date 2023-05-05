@@ -300,15 +300,15 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ғᴏᴜɴᴅ**\n\nᴩʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ."
+                    "**SIR/MAM VC ON KRLO TAVI MUSIC CHALEGA**\n\SIR/MAM VC ON KRLO TAVI MUSIC CHALEGA."
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
-                "**ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ɪɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ**\n\nᴍᴜsɪᴄ ʙᴏᴛ sʏsᴛᴇᴍs ᴅᴇᴛᴇᴄᴛᴇᴅ ᴛʜᴀᴛ ᴀssɪᴛᴀɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ, ɪғ ᴛʜɪs ᴩʀᴏʙʟᴇᴍ ᴄᴏɴᴛɪɴᴜᴇs ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+                "**AKH ME LAND DAL RAKHA HA KAY VC PE BOT ALREADY HA**\n\nAKH ME LAND DAL RAKHA HA KAY VC PE BOT ALREADY HA AGAR NAHI DEKHRA TO END LIKH KE RESTART KRLE BOT KO BSDK."
             )
         except TelegramServerError:
             raise AssistantErr(
-                "**ᴛᴇʟᴇɢʀᴀᴍ sᴇʀᴠᴇʀ ᴇʀʀᴏʀ**\n\nᴩʟᴇᴀsᴇ ᴛᴜʀɴ ᴏғғ ᴀɴᴅ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɢᴀɪɴ."
+                "**TELEGRAM ERROR MADARCHHOD BoT KO RESTART KRLE**\n\nTELEGRAM ERROR MADARCHHOD BoT KO RESTART KRLE."
             )
         await add_active_chat(chat_id)
         await music_on(chat_id)
