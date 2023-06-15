@@ -32,7 +32,7 @@ async def activevc(_, message: Message):
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
     if not text:
-        await mystic.edit_text("ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄʙᴏᴛ...")
+        await mystic.edit_text(BSDK ADMIN RIGHT TO DIYA NAHI HA VC ON KRDE TAVI PLAY HOGA MUSIC"...")
     else:
         await mystic.edit_text(
             f"**ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄ ʙᴏᴛ :-**\n\n{text}",
@@ -60,7 +60,7 @@ async def activevi_(_, message: Message):
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
     if not text:
-        await mystic.edit_text("ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄ ʙᴏᴛ...")
+        await mystic.edit_text("BSDK ADMIN RIGHT TO DIYA NAHI HA VC ON KRDE TAVI PLAY HOGA MUSIC...")
     else:
         await mystic.edit_text(
             f"**ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄ ʙᴏᴛ :-**\n\n{text}",
